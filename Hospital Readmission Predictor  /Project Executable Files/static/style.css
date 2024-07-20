@@ -1,0 +1,90 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Container style */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for container */
+}
+
+/* Header style */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form style */
+.form-container {
+    background-color: #f9f9f9; /* Lighter gray background for form */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Shadow for form */
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="number"],
+.form-container select {
+    width: calc(100% - 12px); /* Adjust for padding */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Output style */
+.output-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f0f0; /* Light gray background */
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Shadow for output */
+}
+
+.output-container h2 {
+    text-align: center;
+}
+
+/* Error message style */
+.error-container {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f44336; /* Red background for error */
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Shadow for error */
+}
+
+.error-container p {
+    text-align: center;
+    font-size: 16px;
+}
+
